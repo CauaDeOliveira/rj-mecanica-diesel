@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Mecânica Diesel | Especialistas em Linha Pesada</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+    <header>
+        <div class="container nav-bar">
+            <div class="logo">
+                <h1>RJ <span>MECÂNICA DIESEL</span></h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contato" class="btn-whatsapp-header">Fale Conosco</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Força, Confiança e Agilidade para a sua Frota</h2>
+                    <p>Especialistas em manutenção de caminhões e tratores. O socorro e o cuidado que o seu veículo pesado precisa, com a experiência que você confia.</p>
+                    <a href="https://wa.me/554499545429" target="_blank" class="btn-whatsapp-principal">
+                        Solicitar Orçamento pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+   
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <div class="sobre-conteudo">
+                    <h2>Nossa Experiência</h2>
+                    <p>A RJ Mecânica Diesel é referência na manutenção de linha pesada. Trabalhamos com dedicação e transparência para garantir que o seu caminhão ou máquina agrícola não fique parado. Atendimento especializado e diagnóstico preciso para você voltar a rodar com segurança.</p>
+                </div>
+            </div>
+        </section>
+
+     
+        <section id="servicos" class="servicos">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="cards-servicos">
+                
+                    <div class="card">
+                        <h3>Mecânica Geral</h3>
+                        <p>Revisão completa e manutenção preventiva e corretiva para caminhões e tratores.</p>
+                    </div>
+                  
+                    <div class="card">
+                        <h3>Motores, Câmbios e Diferenciais</h3>
+                        <p>Manutenção, revisão e reparação completa desses componentes essenciais para garantir a máxima potência e durabilidade do seu veículo pesado.</p>
+                    </div>
+                  
+                    <div class="card">
+                        <h3>Suspensão e Freios</h3>
+                        <p>Manutenção completa para garantir a segurança da sua viagem e da sua carga.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="contato-info">
+                <h2>Fale com a Gente</h2>
+                <p><strong>Reginaldo:</strong> (44) 9954-5429</p>
+                <p><strong>Jeferson:</strong> (44) 9930-3911</p>
+                <p><strong>Endereço:</strong> Avenida Padre Inácio De Azevedo, Centro, Nº 297 A, Jesuítas-PR</p>
+            </div>
+            <div class="mapa">
+                
+                <iframe src="https://maps.google.com/maps?q=Avenida%20Padre%20In%C3%A1cio%20De%20Azevedo,%20Centro,%20297%20A,%20Jesu%C3%ADtas%20-%20PR&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 RJ Mecânica Diesel. Desenvolvido por Cauã.</p>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('#mobile-menu');
+        const navMenu = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
